@@ -8,7 +8,7 @@ type Subject = {
   dates: Array<DatesInfo>
 } 
 
-const datesInfo: Array<Subject> = [
+export const datesInfo: Array<Subject> = [
   {
     subjectName: 'science',
     dates: [
