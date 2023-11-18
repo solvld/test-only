@@ -58,5 +58,17 @@ export const datesInfo: Array<Subject> = [
         info: `"Другой фильм"`
       }
     ]
+  },
+  {
+    subjectName: "Physics",
+    dates: [
+      {date: 1820, info: "Hans Christian Ørsted discovers the phenomenon of electromagnetic induction"},
+      {date: 1666, info: "Isaac Newton formulates the law of universal gravitation"},
+      {date: 1905, info: "Albert Einstein publishes the special theory of relativity"},
+      {date: 1927, info: "de Broglie's wave theory"},
+      {date: 1964, info: "Discovery of quasars"},
+      {date: 1983, info: "Detection of neutrinos"},
+      {date: 2012, info: "Discovery of the Higgs boson at CERN"}
+    ]
   }
 ];
