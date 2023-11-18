@@ -1,5 +1,5 @@
 import React from "react";
-import './CardTable.css'
+import './CardTable.scss'
 import Card from '../Card/Card';
 import { datesInfo } from "../../DatesInfo";
 
