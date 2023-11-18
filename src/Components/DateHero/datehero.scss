@@ -1,0 +1,17 @@
+@import '../../styles/varibles';
+
+.years{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border: solid;
+  font-size: 100px;
+  font-weight: 700;
+  .year-first{
+    color: $fuschia;
+  }
+  .year-last{
+    color: $blue
+  }
+}
+

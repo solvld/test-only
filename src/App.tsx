@@ -1,11 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import { datesInfo } from './DatesInfo';
 import CardTable from './Components/CardTable/CardTable'
+import DateHero from './Components/DateHero/DeteHero';
+
+
 
 function App() {
   return (
     <div className="App">
-      <CardTable />
+      <DateHero />
+      <hr />
+      {/* <CardTable /> */}
+      <div>{datesInfo.length}</div>
     </div>
   );
 }
