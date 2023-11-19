@@ -1,0 +1,19 @@
+@import '../../styles/varibles';
+
+header{
+  display: flex;
+
+  h1{
+    color: $black-blue;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+  }
+  .vertical-gradient {
+    margin-right: 78px;
+    height: 120px; 
+    width: 5px;   
+    background: linear-gradient(to bottom, $blue, $fuschia);
+    
+  }
+}
