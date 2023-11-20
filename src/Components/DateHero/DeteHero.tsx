@@ -21,8 +21,8 @@ function DateHero() {
   return (
     <div>
       <div className="years">
-        <span className="year-first">{subjects[dateIndex].dates[0].date}</span>
-        <span className="year-last">{subjects[dateIndex].dates[lastIndex].date}</span>
+        <span className="year-first">{subjects[dateIndex].dates[0].year}</span>
+        <span className="year-last">{subjects[dateIndex].dates[lastIndex].year}</span>
       </div>
 
       <div>

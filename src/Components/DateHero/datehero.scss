@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  border: solid;
   font-size: 100px;
   font-weight: 700;
   .year-first{
@@ -15,3 +14,15 @@
   }
 }
 
+button{
+  color: $black-blue;
+  background-color: #ffff;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  font-weight: 700;
+  border: 0.5px solid;
+    &:disabled{
+      opacity: 0.5;
+  }
+}
