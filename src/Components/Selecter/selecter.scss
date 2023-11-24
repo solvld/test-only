@@ -1,0 +1,26 @@
+@import '../../styles/varibles';
+
+.circle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 460px;
+  height: 460px;
+  width: 460px;
+  height: 460px;
+  border: 1px solid $black-blue;
+
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  .point {
+    position: relative;
+    left: 50%;
+    background-color: $black-blue;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+
+  }
+}

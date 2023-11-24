@@ -5,4 +5,11 @@
 
 .App{
   margin: 170px 160px 0 320px;
+  @media screen and (max-width: 600px){
+    &{
+      margin: 0;
+    }
+  }
 }
+
+

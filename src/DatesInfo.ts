@@ -70,5 +70,17 @@ export const datesInfo: Array<Subject> = [
       {"year": 1989, "event": "Fall of the Berlin Wall"},
       {"year": 2010, "event": "Earthquake in Haiti"}
     ]
+  },
+  {
+    "subjectName": "Physics",
+    "dates": [
+      {"year": 1666, "event": "Isaac Newton formulates the law of universal gravitation"},
+      {"year": 1820, "event": "Hans Christian Ørsted discovers the phenomenon of electromagnetic induction"},
+      {"year": 1905, "event": "Albert Einstein publishes the special theory of relativity"},
+      {"year": 1927, "event": "de Broglie's wave theory"},
+      {"year": 1964, "event": "Discovery of quasars"},
+      {"year": 1983, "event": "Detection of neutrinos"},
+      {"year": 2012, "event": "Discovery of the Higgs boson at CERN"}
+    ]
   }
 ];

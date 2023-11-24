@@ -4,13 +4,20 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  font-size: 100px;
+  font-size: 150px;
   font-weight: 700;
+
+  @media screen and (max-width: 600px){
+    & {
+      font-size: 56px;
+      margin: 0 20px 59px 20px;
+    }
+  }
   .year-first{
-    color: $fuschia;
+    color: $blue;
   }
   .year-last{
-    color: $blue
+    color: $fuschia;
   }
 }
 
@@ -26,3 +33,4 @@ button{
       opacity: 0.5;
   }
 }
+

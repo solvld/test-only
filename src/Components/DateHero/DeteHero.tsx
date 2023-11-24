@@ -2,8 +2,20 @@ import React, { useState } from "react";
 import {datesInfo} from '../../DatesInfo'
 import './datehero.scss';
 import CardTable from "../CardTable/CardTable";
+import { gsap, Power1 } from "gsap";
+
 
 function DateHero() {
+  const items = document.querySelectorAll(".year-firs");
+
+  gsap.from(items, {
+    textContent: 0,
+    duration: 4,
+    ease: Power1.easeIn,
+    snap: { textContent: 1 },
+    stagger: 1,
+    // onUpdate: textContent.replace(/\B(?=(\d{3})+(?!\d))/g, ","),
+  });
 
   const subjects = datesInfo
 
